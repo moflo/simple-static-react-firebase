@@ -15,9 +15,9 @@ const LoggedOut = () => {
       <a href="auth.html">
         Go to the auth page.
       </a>
-      <span onClick={signOut}>
+      <div onClick={signOut}>
           Sign out
-        </span>
+        </div>
 
 
     </div>
